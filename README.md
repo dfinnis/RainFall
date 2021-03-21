@@ -1,6 +1,6 @@
 # RainFall
 
-Discover gdb disassembly, binary exploitation & reverse-engineering through 14 little challenges.
+Discover gdb disassembly, binary exploitation & reverse engineering through 14 little challenges.
 
 In the folder for each level you will find:
 
