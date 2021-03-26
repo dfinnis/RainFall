@@ -113,4 +113,4 @@ Each level's *README.md* details how to to compile *source.c*, set SUID, then ru
 
 ## Team
 
-I wrote this project in a team with the wonderful [@Anya Schukin](https://github.com/anyashuka)
+I wrote this project in a team with the wonderful [@anyaschukin](https://github.com/anyaschukin)
