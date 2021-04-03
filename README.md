@@ -14,7 +14,7 @@ See the [subject](https://github.com/dfinnis/RainFall/blob/master/subject.pdf) f
 
 For more gdb & exploitation fun check out the next project [OverRide](https://github.com/dfinnis/OverRide).
 
-#### Final Score 125/100
+*Final Score 125/100*
 
 
 ## Getting Started
