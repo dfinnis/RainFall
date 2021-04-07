@@ -6,7 +6,7 @@ gdb disassembly reveals hardcoded password
 
 ## Context
 
-In our home directory we find a binary with SUID and owner ```level1```
+In our home directory we find a binary with SUID and owner *level1*
 ```
 level0@RainFall:~$ ls -l
 -rwsr-x---+ 1 level1 users 747441 Mar  6  2016 level0
@@ -19,7 +19,7 @@ Let's start by logging in from a separate shell.
 >$ ssh level0@{VM_IP} -p 4242
 level0@192.168.0.17's password: level0
 ```
-If we run the binary ```level0``` without arguments it segfaults
+If we run the binary *level0* without arguments it segfaults
 ```
 level0@RainFall:~$ ./level0
 Segmentation fault (core dumped)
@@ -61,7 +61,7 @@ Password: 1fe8a524fa4bec01ca4ea2a869af2a02260d4a7d5fe7e7c24d8617e6dca12d3a
 
 ## Recreate exploited binary
 
-As user ```level1```, in ```/tmp```, create and compile ```level0_source.c```.
+As user *level1*, in */tmp*, create and compile *level0_source.c*.
 ```
 level1@RainFall:/tmp$ gcc level0_source.c -o level0_source
 ```
@@ -69,7 +69,7 @@ Edit permissions including suid, then move the binary to home directory.
 ```
 level1@RainFall:/tmp$ chmod u+s level0_source; chmod +wx ~; mv level0_source ~
 ```
-Exit back to user level0, then run the binary.
+Exit back to user *level0*, then run the binary.
 ```
 level1@RainFall:/tmp$ exit
 exit
